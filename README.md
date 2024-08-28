@@ -15,7 +15,7 @@ You will start on **level00** and proceed by escalating privileges to access **f
 
 1. **Virtual Machine Setup**:
    - Use the provided 64-bit VM ISO to start your machine.
-   - Once booted, you will be presented with a prompt displaying the IP address. If no IP is shown, use the `ifconfig` command to retrieve it.
+   - Once booted, you will be presented with a prompt displaying the IP address (recommended to use bridge adapater in the VM settings) . If no IP is shown, use the `ifconfig` command to retrieve it.
    
 2. **Logging in**:
    - Log into the VM using the following credentials for level00:
@@ -23,7 +23,7 @@ You will start on **level00** and proceed by escalating privileges to access **f
      Login: level00
      Password: level00
      ```
-   - It is recommended to connect via **SSH** using port 4242:
+   - It is recommended to connect via **SSH** using port 4242 (please do it):
      ```
      $ ssh level00@<IP_ADDRESS> -p 4242
      ```
